@@ -1,0 +1,24 @@
+The cameras file contains the following information:
+
+(3x3) camera matrix K
+(3)   radial distortion parameters (if zero: the images are corrected for radial distortion)
+(3x3) rotation matrix R
+(3)   translation vector t
+
+a 3D point X will be projected into the images in the usual way:
+x = K[R^T|-R^T t]X
+
+any problems? mail:
+christoph.strecha@esat.kuleuven.ac.be
+
+Source: https://www.epfl.ch/labs/cvlab/data/data-strechamvs/ 
+Acknowledgements:
+
+License and references
+COPYRIGHTS (C) 2004 You are free to download and use these data for research purposes only. We appreciate an email message indicating who has copied the data and understand that the source will be acknowledged (ESAT/PSI Visics K.U.Leuven) and the first two papers below ate cited in case results obtained with these data will be published.
+(A subset of) these images have been used in:
+
+Christoph Strecha
+Last modified: 04/11/2008 09:02:26
+
+
